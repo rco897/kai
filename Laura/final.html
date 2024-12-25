@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style> 
+    .row { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; }
+    .col-lg-68 { flex: 0 0 100%; max-width: 100%; }
+    .custom-list li { display: flex; align-items: baseline; margin-bottom: 10px; } 
+    .custom-list li i { margin-right: 10px; /* 圖標與文本的間距 */ }
+    .custom-list li strong { min-width: 150px; /* 根據需要調整 */ } 
+    .custom-list li p, .custom-list li span { margin-left: -28px; /* 調整文本的左邊距 */ }
+    .icon-right + strong { margin-top: -3px; /* 調整箭頭圖標後面的間距 */ }
+    .fff + strong{ margin-top: 0px; /* 調整箭頭圖標後面的間距 */ }
+    .icon-text { display: inline-flex; align-items: center; margin-top: 10px; /* 設置上方的間距 */ margin-bottom: 10px; /* 設置下方的間距 */ }
+ .custom-spacing { margin-bottom: 1px; /* 減少這個特定標題底部的間距 */ }
+    .symbol img { width: 24px; /* 根據需要調整 */ height: 24px; /* 根據需要調整 */ display: inline-block;
+    
+  </style>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Laura Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Laura
+  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="final.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Kai-Yang Travel</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">主頁</a></li>
+          <li><a href="#about">行程前言</a></li>
+          <li><a href="#add">行程表</a></li>
+          <li><a href="#services">景點介紹</a></li>
+          <li><a href="#portfolio">餐廳介紹</a></li>
+
+          <li><a href="#contact">聯絡我們</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/busan%20landscap2.jpg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <h1>踏上釜山之旅</h1>
+        <p>Embark on a trip to Busan</p>
+        <p>부산으로 여행을 떠나다</p>
+        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">行程前言</span>
+        <h2>行程前言</h2>
+        <p>本次五天四夜的釜山之旅精心安排了豐富多彩的行程，包含著名景點、特色美食和夜生活體驗。從探索海洋世界到品嚐當地美食，
+          從購物天堂到文化藝術欣賞，每一天都將充滿驚喜與回憶。
+          無論你是自然愛好者、購物狂或美食饕客，這段旅程都將滿足你對釜山的所有願望。真心期盼與您一起踏上釜山之旅！</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/portfolio/busan.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>費用說明 </h2>
+            <br>
+            <p class="fst-italic py-30"></p>
+         
+            <div class="row">
+              <div class="col-lg-68">
+                <ul class="custom-list">
+                  <li><i class="bi bi-chevron-right"></i> <strong>行程時間:</strong> <span>1 May 1995</span></li>
+                  <li><i class="bi bi-chevron-right "></i> <strong>團費:</strong><p>成人:TWD39900<br>早鳥前10名第二人折５０００元</p></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>團費未包含:</strong><p class=" py-30">1.全程領隊、導遊、司機小費NT300元/每人/每天。
+                    <br>2.旅遊平安保險及旅遊不便險。
+                    <br>3.一經確認後如個人因素取消或被拒絕入境韓國，將無法申請退費。
+                    <br>4.無自然單人房，若為一大人或一大人加一嬰兒參加，請洽業務確認加價費用。</p></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>注意事項:</strong> <span>★加班機/包銷行程特別約定：此行程為包機/包銷商品，故國際段機位採包機/包銷航班作業，本公司於旅客繳付訂金後方可進行商品確認及保留作業，為維護所有旅客權益，
+                    旅客如於報名並繳交訂金後<mark>欲取消，
+                    將無法退還訂金。</mark>機票開立後不可改名、轉讓、退票或更改出發日期，一經開票即無退票價值。</span></li>
+                </ul>
+              </div>
+              
+            </div>
+            <p class="py-3 custom-spacing">
+              溫馨提醒<br>
+★搭乘易斯達航空之團體機位為主，請務必詳閱下列說明： </p>
+            
+            
+<ol>
+<li>托運行李說明：託運行李20公斤。
+<li>手提行李說明：來回各10公斤手提行李乙件。
+<li>此為易斯達加班機，實際航班時間以官網班表時刻表公告為主，敬請留意。
+<li>易斯達航空機票不可更改來回日期及航班、不可更改行程(航點)、不可轉讓它航或他人使用、機票一經開立即不可退票。
+<li>無法事先加價指定緊急逃生口。
+</ol>
+           
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+   
+   <!-- Resume Section -->
+    <section id="add" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">行程表</span>
+        <h2>行程表</h2>
+        <p>關於五天四夜旅行中的行程規劃</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">第一天</h3>
+
+            <div class="resume-item pb-0">
+              <ul>
+              <li>中午抵達釜山機場</li>
+              <p><em>酒店入住並自由探索周邊商圈</em></p>
+              <li>晚餐時間</li>
+              <p><em>民樂會館 (밀락회타운)</em></p>
+              <li>深夜時刻*消夜推薦*</li>
+              <p><em>炸醬麵館 (짜장면집) 或 麵館小館 (면관소관)</em></p>
+            </ul></div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">第二天</h3>
+            <div class="resume-item">
+              <li>上午景點</li>
+              <p><em>釜山海洋水族館</em></p>
+              <li>午餐時間</li>
+              <p><em>海雲台市場 (해운대시장)</em></p>
+              <li>下午行程</li>
+              <p><em>釜山港和釜山國際大橋</em></p>
+              <li>晚餐時間</li>
+              <p><em>多鍋美食店（다솥맛집)</em></p>
+              <li>深夜時刻</li>
+              <p><em>釜山塔夜景</em></p>
+            </div>
+              <h3 class="resume-title">第三天</h3>
+            <div class="resume-item">
+              <li>上午景點</li>
+              <p><em>釜山地下街</em></p>
+              <li>午餐時間</li>
+              <p><em>釜田市場 (부전시장)</em></p>
+              <li>下午行程</li>
+              <p><em>釜山大戲院</em></p>
+              <li>晚餐時間</li>
+              <p><em>Jagalchi 魚市場 (자갈치 시장)</em></p>
+              <li>深夜時刻</li>
+              <p><em>Club GRID (클럽 그리드)</em></p>
+             </div><!-- Edn Resume Item -->
+
+           
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title"> 第四天</h3>
+            <div class="resume-item">
+              <ul>
+              <li>上午景點</li>
+              <p><em>釜山樹木園</em></p>
+              <li>午餐時間</li>
+              <p><em>Yeongdo Restaurant (영도식당)	</em></p>
+              <li>下午行程</li>
+              <p><em>釜山美術館</em></p>
+              <li>晚餐時間</li>
+              <p><em>The Party Haeundae (더 파티 해운대)</em></p>
+              <li>深夜時刻</li>
+              <p><em>Ilumia 公園 (일루미아 공원)</em></p>
+              </ul>
+            </div><!-- Edn Resume Item -->
+            <h3 class="resume-title"> 第五天</h3>
+            <div class="resume-item">
+              <ul>
+              <li>上午景點</li>
+              <p><em>海雲台海灘散步</em></p>
+              <li>午餐時間</li>
+              <p><em>Haeundae 1884 (해운대 1884)</em></p>
+              <li>下午行程</li>
+              <p><em>前往機場，準備返航台灣</em></p>
+
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">景點介紹</span>
+        <h2>景點介紹</h2>
+        <p>驚豔的畫面，背後的歷史又是如何，快來一探究竟吧!!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bookmark-fill icon"></i></div>
+              <h4><a href="l1.html" class="stretched-link">釜山國際大橋</a></h4>
+              <img src="assets/img/portfolio/l1.jpg" width="250" height="250">
+
+            
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bookmark-heart-fill icon"></i></div>
+              <h4><a href="l2.html" class="stretched-link">釜山地下街</a></h4>
+              <img src="assets/img/portfolio/l2.jpg" width="250" height="250">
+             
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bookmark-star-fill icon"></i></div>
+              <h4><a href="l3.html" class="stretched-link">釜山樹木園</a></h4>
+              <img src="assets/img/portfolio/l3.jpg" width="250" height="250">
+
+              
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bookmark-check-fill icon"></i></div>
+              <h4><a href="l4.html" class="stretched-link">海雲台海灘</a></h4>
+              <img src="assets/img/portfolio/l4.jpg" width="250" height="250">
+
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section dark-background">
+
+      <img src="assets/img/portfolio/person.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/se%20sea.png" class="testimonial-img" alt="">
+                <h3>ななみけんと<br>七海建人</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>労働はクソということです<br>勞動就是狗屎</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/uuuuu.jpg" class="testimonial-img" alt="">
+                <h3>うさぎ烏薩奇</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>嗚~嗚~啦~啦~嗚啦<br>嗚啦啦~呀~哈~呀~哈</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/shadow.jpg" class="testimonial-img" alt="">
+                <h3>シド・カゲノー席德·卡蓋諾</h3>
+                <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>我が名はシャドウ。影に潜み、影を狩る者なり。<br>吾名闇影。乃潛伏於闇影之中 狩獵闇影之人</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/ilean.png" class="testimonial-img" alt="">
+                <h3>エレン・イェーガー艾連·葉卡</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>座れよ、ライナー<br>萊納，你坐阿</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/sinmare.jpg" class="testimonial-img" alt="">
+                <h3>ヒンメル欣梅爾</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>後世にしっかりと僕のイケメンぶりを残しておかないと<br>
+                  得將我帥氣的模樣留給後世的人們瞻仰</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">餐廳介紹</span>
+        <h2>餐廳介紹</h2>
+        <p>美食的饗宴，你不容錯過的前情提要</p>
+      </div><!-- End Section Title -->
+
+      <div class="container-fluid">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">市場</li>
+            <li data-filter=".filter-product">餐館</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-xl-3 col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/r2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="assets/img/portfolio/r2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-3 col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/r1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="assets/img/portfolio/r1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="r2.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-3 col-lg-6 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/r33.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="assets/img/portfolio/r33.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="r3.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-3 col-lg-6 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/r4.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="assets/img/portfolio/r4.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="r4.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+ 
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">聯絡我們</span>
+        <h2>聯絡我們</h2>
+        <p>有任何疑問都歡迎於營業時間9:00~9:01與我們聯繫</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-geo-alt"></i>
+              <h3>地址</h3>
+              <p>236新北市土城區立德路2號</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
+              <i class="bi bi-telephone"></i>
+              <h3>電話</h3>
+              <p> 02 2261 1711</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-envelope"></i>
+              <h3>電子郵箱</h3>
+              <p>toyzsdog@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="大名" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="郵件" placeholder="郵件" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="標題" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="內文" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">發送</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+    <div class="container">
+      <h3 class="sitename">Kai-Yang<br></h3>
+      <p>由暗而生，暗中至暗；污濁殘穢，盡數祓除</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>我</span> <strong class="px-1 sitename">一步</strong> <span>都沒有退</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          這是一場 <a href="https://bootstrapmade.com/">公平的比賽</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
